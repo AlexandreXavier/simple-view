@@ -1,0 +1,18 @@
+cmake_minimum_required(VERSION 3.3)
+project(fstl)
+
+set(CMAKE_AUTOMOC ON)
+set(CMAKE_INCLUDE_CURRENT_DIR ON)
+set(CMAKE_AUTOUIC ON)
+
+#set project sources
+set(Project_Sources src/app.cpp
+src/window.cpp)
+
+#set project headers. 
+set(Project_Headers src/app.h
+src/window.h)
+
+
+
+include(CPack)
